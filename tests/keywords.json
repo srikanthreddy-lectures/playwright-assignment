@@ -1,5 +1,5 @@
 [
     {"word": "goto", "required": true},
-    {"word": "if", "required": true},
+    {"word": "toHaveTitle", "required": true},
     {"word": "for", "required": false}
 ]
