@@ -1,0 +1,5 @@
+[
+    {"word": "function", "required": true},
+    {"word": "if", "required": true},
+    {"word": "for", "required": false}
+]
