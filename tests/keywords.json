@@ -1,5 +1,5 @@
 [
-    {"word": "function", "required": true},
+    {"word": "goto", "required": true},
     {"word": "if", "required": true},
     {"word": "for", "required": false}
 ]
