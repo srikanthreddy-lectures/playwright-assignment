@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: skr_pool
+  agent: skr_pool
 
 steps:
 - script: echo Hello, world!
