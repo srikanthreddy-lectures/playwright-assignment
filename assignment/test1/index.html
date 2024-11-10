@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>dom-example1.html</title>
+        <style>
+            .colorful{
+                border-style: solid;
+                border-color: blue;
+            }
+        </style>
+    </head>
+    <body align="center">
+        <p>This is my first paragraph</p>
+       <h1 id="he">Welcome to Javascript DOM</h1>
+       <div name="target">
+         This is target division
+       </div>
+       <div class="colorful">
+             This is colorful division
+       </div>
+       <script>
+        document.getElementById("he").style.borderStyle="dashed";
+        document.getElementById("he").style.borderColor="orange";
+        document.getElementsByTagName('p')[0].style.backgroundColor="yellow";
+        document.getElementsByName("target")[0].outerHTML="Text Replaced";
+        document.getElementsByClassName("colorful")[0].style.backgroundColor="yellow";
+       </script>
+    </body>
+</html>
